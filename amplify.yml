@@ -8,11 +8,12 @@ frontend:
     build:
       commands:
         - echo "Building the application"
-        - npm run build
+        - npx next build
   artifacts:
-    baseDirectory: build  # or whatever your output directory is (sometimes "out" or "dist")
+    baseDirectory: .next
     files:
       - '**/*'
   cache:
     paths:
       - node_modules/**/*
+      - .next/cache/**/*
