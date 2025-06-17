@@ -4,40 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8396fab1-a561-469c-8190-945c48d7d823" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.prettierrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/CaseCard.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/ExtractionMethodCard.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/sections/AdvancedExtractionMethods.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/sections/CaseStudies.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/sections/FeacturesSection.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/sections/HeroSection.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/constants/cases.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/brands/aspire.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/brands/bmo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/brands/degreedata.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/brands/experial.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/brands/ford.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/brands/porsche.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/brands/property.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/brands/ricon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/brands/samtec.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/icons/calendar-view.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/icons/notes.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/icons/question-answer.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/icons/view-agenda.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/icons/view-list.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/backgrounds/cases-bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/backgrounds/hero-bg.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/extraction-methods/form.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/extraction-methods/qa.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/extraction-methods/table.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/extraction-methods/text.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="8396fab1-a561-469c-8190-945c48d7d823" name="Changes" comment="UI changes">
+      <change afterPath="$PROJECT_DIR$/components/ScrollToTopButton.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/favicon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/globals.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/layout.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tailwind.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/tailwind.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/NavItem.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/NavItem.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/sections/AdvancedExtractionMethods.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/sections/AdvancedExtractionMethods.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/sections/CaseStudies.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/sections/CaseStudies.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/sections/ContactsSection.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/sections/ContactsSection.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/sections/FeaturesSection.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/sections/FeaturesSection.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/sections/Footer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/sections/Footer.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/sections/Header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/sections/Header.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/sections/HeroSection.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/sections/HeroSection.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,12 +27,17 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="TypeScript JSX File" />
         <option value="TypeScript File" />
+        <option value="TypeScript JSX File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectColorInfo">{
@@ -67,8 +52,8 @@
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "/home/user/IdeaProjects/ez-landing-page/public/brands",
+    "git-widget-placeholder": "ui-changes",
+    "last_opened_file_path": "/home/user/IdeaProjects/ez-landing-page/public",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -88,11 +73,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public" />
       <recent name="$PROJECT_DIR$/public/brands" />
       <recent name="$PROJECT_DIR$/public/images/backgrounds" />
       <recent name="$PROJECT_DIR$/public/images/extraction-methods" />
       <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/public/icons" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/public/images/backgrounds" />
@@ -215,7 +200,17 @@
       <workItem from="1741630573621" duration="599000" />
       <workItem from="1741752811726" duration="2914000" />
       <workItem from="1750057428605" duration="19914000" />
+      <workItem from="1750143939104" duration="9320000" />
     </task>
+    <task id="LOCAL-00001" summary="UI changes">
+      <option name="closed" value="true" />
+      <created>1750155128529</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1750155128529</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -224,7 +219,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="ezpaperwork-landing" />
     <MESSAGE value="ezpaperwork-landing_v1.1" />
-    <option name="LAST_COMMIT_MESSAGE" value="ezpaperwork-landing_v1.1" />
+    <MESSAGE value="UI changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="UI changes" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

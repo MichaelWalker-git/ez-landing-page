@@ -6,7 +6,9 @@ export default function ContactsSection() {
     <section id="contacts" className="py-20 px-2 scroll-mt-16">
       <div className="container mx-auto">
         <div className="bg-emerald-600 rounded-3xl p-8 md:p-16 text-center text-white">
-          <h3 className="text-2xl md:text-2xl font-bold mb-4">Get Free Access to EzPaperwork</h3>
+          <h3 className="text-2xl md:text-2xl sm:text-2xl font-bold mb-4">
+            Get Free Access to EzPaperwork
+          </h3>
           <p className="text-md mb-1 max-w-2xl mx-auto">
             Unlock a free trial of EzPaperwork and explore its key features.
           </p>

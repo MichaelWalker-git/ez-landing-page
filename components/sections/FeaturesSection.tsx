@@ -12,7 +12,7 @@ export default function FeaturesSection() {
           </h2>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-44">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-12 md:gap-24 xl:gap-44">
           <div className="text-center space-y-4">
             <div className="flex justify-center">
               <div className="p-3 rounded-lg bg-emerald-50">
