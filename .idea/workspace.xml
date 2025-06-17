@@ -5,7 +5,39 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8396fab1-a561-469c-8190-945c48d7d823" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/amplify.yml" beforeDir="false" afterPath="$PROJECT_DIR$/amplify.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.prettierrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/CaseCard.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/ExtractionMethodCard.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/sections/AdvancedExtractionMethods.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/sections/CaseStudies.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/sections/FeacturesSection.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/sections/HeroSection.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/constants/cases.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/brands/aspire.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/brands/bmo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/brands/degreedata.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/brands/experial.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/brands/ford.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/brands/porsche.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/brands/property.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/brands/ricon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/brands/samtec.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/calendar-view.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/notes.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/question-answer.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/view-agenda.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/view-list.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/backgrounds/cases-bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/backgrounds/hero-bg.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/extraction-methods/form.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/extraction-methods/qa.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/extraction-methods/table.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/extraction-methods/text.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tailwind.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/tailwind.config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,7 +68,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "/Users/michaelwalker/WebstormProjects/landing-page-ezpaperwork/components/ui",
+    "last_opened_file_path": "/home/user/IdeaProjects/ez-landing-page/public/brands",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -44,21 +76,89 @@
     "nodejs_interpreter_path": "node",
     "nodejs_package_manager_path": "npm",
     "npm.dev.executor": "Run",
-    "settings.editor.selected.configurable": "settings.typescriptcompiler",
-    "ts.external.directory.path": "/Users/michaelwalker/WebstormProjects/landing-page-ezpaperwork/node_modules/typescript/lib",
+    "prettierjs.PrettierConfiguration.Package": "/home/user/IdeaProjects/ez-landing-page/node_modules/prettier",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "settings.javascript.prettier",
+    "ts.external.directory.path": "/home/user/IdeaProjects/ez-landing-page/node_modules/typescript/lib",
+    "vcs.patch.path": "/home/user/Downloads/LTIP_patch",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/components/ui" />
+      <recent name="$PROJECT_DIR$/public/brands" />
+      <recent name="$PROJECT_DIR$/public/images/backgrounds" />
+      <recent name="$PROJECT_DIR$/public/images/extraction-methods" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/public/icons" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public/images/backgrounds" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
   <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType">
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <option name="filePath" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="Python.FlaskServer">
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="Tox" factoryName="Tox">
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <method v="2" />
+    </configuration>
     <configuration name="dev" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -67,6 +167,26 @@
       </scripts>
       <node-interpreter value="project" />
       <envs />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Doctests">
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
       <method v="2" />
     </configuration>
     <recent_temporary>
@@ -78,7 +198,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-1632447f56bf-JavaScript-WS-243.25659.40" />
+        <option value="bundled-jdk-9823dce3aa75-fbdcb00ec9e3-intellij.indexing.shared.core-IU-251.25410.109" />
+        <option value="bundled-js-predefined-d6986cc7102b-6a121458b545-JavaScript-IU-251.25410.109" />
       </set>
     </attachedChunks>
   </component>
@@ -93,10 +214,20 @@
       <workItem from="1741412413119" duration="4565000" />
       <workItem from="1741630573621" duration="599000" />
       <workItem from="1741752811726" duration="2914000" />
+      <workItem from="1750057428605" duration="19914000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="ezpaperwork-landing" />
+    <MESSAGE value="ezpaperwork-landing_v1.1" />
+    <option name="LAST_COMMIT_MESSAGE" value="ezpaperwork-landing_v1.1" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
