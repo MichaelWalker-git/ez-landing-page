@@ -66,7 +66,7 @@ export default function CaseStudies() {
         <div className="relative overflow-hidden">
           <div
             ref={scrollRef}
-            className="flex snap-x snap-mandatory overflow-x-auto scroll-smooth gap-6 scrollbar-hide pb-2"
+            className="flex snap-x snap-mandatory overflow-x-auto scroll-smooth gap-6 scrollbar-hide pb-2 px-2"
           >
             {caseStudies.map((card, index) => (
               <div key={index} className="snap-center shrink-0">
@@ -76,7 +76,7 @@ export default function CaseStudies() {
           </div>
         </div>
 
-        <div className="flex justify-between items-center mt-8 w-[54%]">
+        <div className="flex justify-between items-center mt-8 w-full md:w-[54%]">
           {/* Arrow buttons */}
           <div className="flex gap-2">
             <Button

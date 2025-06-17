@@ -25,7 +25,7 @@ export default function AdvancedExtractionMethods() {
   const [selectedMethod, setSelectedMethod] = useState(EXTRACTION_METHODS.TEXT);
 
   return (
-    <section id="extraction-methods" className="py-20 scroll-mt-16">
+    <section id="extraction-methods" className="py-12 md:py-20 px-4 scroll-mt-16">
       <div className="container mx-auto px-4 md:px-6 lg:px-8">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <div className="space-y-8">
@@ -79,11 +79,6 @@ export default function AdvancedExtractionMethods() {
                 icon="/icons/view-list.svg"
                 comingSoon
               />
-
-              <Button variant="outline" className="flex items-center gap-2">
-                See it in action
-                <ArrowRight className="h-4 w-4" />
-              </Button>
             </div>
           </div>
           <div className="p-3">
@@ -92,6 +87,7 @@ export default function AdvancedExtractionMethods() {
               alt="Document example"
               width={576}
               height={766}
+              className="w-full max-w-xs md:max-w-md lg:max-w-full mx-auto"
             />
           </div>
         </div>
